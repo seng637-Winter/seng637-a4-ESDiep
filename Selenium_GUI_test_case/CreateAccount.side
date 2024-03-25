@@ -1,0 +1,497 @@
+{
+  "id": "e59d6535-138f-406b-bbca-0166077b478e",
+  "version": "2.0",
+  "name": "CreateAccount",
+  "url": "https://www.homedepot.ca",
+  "tests": [{
+    "id": "a9345cbc-ef94-41eb-a123-3e1dbd9e3f61",
+    "name": "ExistingAccount",
+    "commands": [{
+      "id": "a106df63-1f45-4793-aa1d-1f94f927e174",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80b8b0e7-ce01-4877-81c3-e77a9f1f4134",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1439x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bff10e1f-14aa-407f-8b1d-bec93585d2c3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.acl-ml--x-small > svg",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "52096204-b933-4476-9f98-1d1b5147d37b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-ml--x-small > svg",
+      "targets": [
+        ["css=.acl-ml--x-small > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a65cbd68-45af-4b50-addb-de01a8f327a6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create an Account",
+      "targets": [
+        ["linkText=Create an Account", "linkText"],
+        ["css=.acl-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Create an Account')]", "xpath:link"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create an Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f18be5ae-956f-4fb8-81d1-ebf31aab176b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hdca-cms-hero-banner__image",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__image", "css:finder"],
+        ["xpath=//article/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d481790c-94a7-4446-8418-9f4449ee051c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hdca-cms-hero-banner__image",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__image", "css:finder"],
+        ["xpath=//article/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ca034a5-31a4-4f75-811a-6c47d0165acf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-card:nth-child(1) .acl-button__label",
+      "targets": [
+        ["css=.acl-card:nth-child(1) .acl-button__label", "css:finder"],
+        ["xpath=//section/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Create Personal Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f375b52-4bcd-4a6a-82f8-69cbf028e4f2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//acl-input-container[@id='create-account-first-name']/div[2]/div/input",
+      "targets": [
+        ["id=id6413", "id"],
+        ["css=#id6413", "css:finder"],
+        ["xpath=//input[@id='id6413']", "xpath:attributes"],
+        ["xpath=//acl-input-container[@id='create-account-first-name']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40c1f505-ff15-4cf7-8fc7-8feb1fafccf5",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//acl-input-container[@id='create-account-first-name']/div[2]/div/input",
+      "targets": [
+        ["id=id6413", "id"],
+        ["css=#id6413", "css:finder"],
+        ["xpath=//input[@id='id6413']", "xpath:attributes"],
+        ["xpath=//acl-input-container[@id='create-account-first-name']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Mehreen"
+    }, {
+      "id": "f9c25d8e-f654-4723-8dc5-6e51b16c25cf",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//acl-input-container[@id='create-account-last-name']/div[2]/div/input",
+      "targets": [
+        ["id=id9000", "id"],
+        ["css=#id9000", "css:finder"],
+        ["xpath=//input[@id='id9000']", "xpath:attributes"],
+        ["xpath=//acl-input-container[@id='create-account-last-name']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ace96e0e-94e3-466d-b6fd-b92f147beabd",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//acl-input-container[@id='create-account-last-name']/div[2]/div/input",
+      "targets": [
+        ["id=id9000", "id"],
+        ["css=#id9000", "css:finder"],
+        ["xpath=//input[@id='id9000']", "xpath:attributes"],
+        ["xpath=//acl-input-container[@id='create-account-last-name']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Akmal"
+    }, {
+      "id": "29ef19e7-108c-47d9-bdca-25d0a8cf5a4c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//acl-input-container[@id='create-account-email']/div[2]/div/input",
+      "targets": [
+        ["id=id7057", "id"],
+        ["css=#id7057", "css:finder"],
+        ["xpath=//input[@id='id7057']", "xpath:attributes"],
+        ["xpath=//acl-input-container[@id='create-account-email']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc046656-74f4-4cb1-bcb3-620d56fb2c8f",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//acl-input-container[@id='create-account-email']/div[2]/div/input",
+      "targets": [
+        ["id=id7057", "id"],
+        ["css=#id7057", "css:finder"],
+        ["xpath=//input[@id='id7057']", "xpath:attributes"],
+        ["xpath=//acl-input-container[@id='create-account-email']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "mehreeny21@gmail.com"
+    }, {
+      "id": "4232bbc1-4253-465a-af91-10a339b19f9f",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//acl-input-container[@id='create-account-postal-code']/div[2]/div/input",
+      "targets": [
+        ["id=id6987", "id"],
+        ["css=#id6987", "css:finder"],
+        ["xpath=//input[@id='id6987']", "xpath:attributes"],
+        ["xpath=//acl-input-container[@id='create-account-postal-code']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container[4]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "T3A 6H7"
+    }, {
+      "id": "ad627a46-e580-47d7-bbf3-fe3b937b793c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//acl-password-container[@id='create-account-password']/div[2]/div/input",
+      "targets": [
+        ["id=id7050", "id"],
+        ["css=#id7050", "css:finder"],
+        ["xpath=//input[@id='id7050']", "xpath:attributes"],
+        ["xpath=//acl-password-container[@id='create-account-password']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-password-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cc7d78a-e191-42f5-94a7-b372bd8cc0c3",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//acl-password-container[@id='create-account-password']/div[2]/div/input",
+      "targets": [
+        ["id=id7050", "id"],
+        ["css=#id7050", "css:finder"],
+        ["xpath=//input[@id='id7050']", "xpath:attributes"],
+        ["xpath=//acl-password-container[@id='create-account-password']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-password-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Password123"
+    }, {
+      "id": "2d742313-3c43-40e9-a310-43c4c40b1dc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button--theme--primary > .acl-button__label",
+      "targets": [
+        ["css=.acl-button--theme--primary > .acl-button__label", "css:finder"],
+        ["xpath=//form/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7103963-d2c1-4ee5-be25-d4f860d13870",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.acl-button--theme--primary",
+      "targets": [
+        ["css=.acl-button--theme--primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create Account')]", "xpath:innerText"]
+      ],
+      "value": "\"An account already exists under this email address. Please sign in to your existing account or provide a different email address to create a new account.\""
+    }]
+  }, {
+    "id": "c735506d-6663-4753-b1a2-1f8312e33143",
+    "name": "CreateValidAccount",
+    "commands": [{
+      "id": "82261805-8505-41a1-a607-287eb290dceb",
+      "comment": "",
+      "command": "open",
+      "target": "/en/home.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1eaf588-db0c-4b87-a0f0-566705d96e58",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1439x875",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2826fc5c-5659-4902-b04e-a4e6abfe2f70",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#ValueCentreMainNavNodeContainer .acl-main-nav-item__label",
+      "targets": [
+        ["css=#ValueCentreMainNavNodeContainer .acl-main-nav-item__label", "css:finder"],
+        ["xpath=//acl-main-nav-item[@id='ValueCentreMainNavNodeContainer']/a/span", "xpath:idRelative"],
+        ["xpath=//li[5]/acl-main-nav-item/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Specials & Offers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f5d4006-e0b2-4e67-ac0e-31bdd40647e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-ml--x-small:nth-child(2)",
+      "targets": [
+        ["css=.acl-ml--x-small:nth-child(2)", "css:finder"],
+        ["xpath=//a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Account / Sign In')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a864583-d099-40b0-950c-6c81678282a6",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input",
+      "targets": [
+        ["id=id9861", "id"],
+        ["css=#id9861", "css:finder"],
+        ["xpath=//input[@id='id9861']", "xpath:attributes"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50f1f48b-168c-4618-817b-ea8c34990d8b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Create an Account",
+      "targets": [
+        ["linkText=Create an Account", "linkText"],
+        ["css=.acl-link:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Create an Account')]", "xpath:link"],
+        ["xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Create an Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5aa849e-9ded-4089-9e53-b379489bab81",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.hdca-cms-hero-banner__image",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__image", "css:finder"],
+        ["xpath=//article/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "94fcfffc-54cb-46cd-a348-a2d0eca0136f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.hdca-cms-hero-banner__image",
+      "targets": [
+        ["css=.hdca-cms-hero-banner__image", "css:finder"],
+        ["xpath=//article/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a673534c-d247-4be8-84b5-d98fc0b53895",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.acl-card:nth-child(1) .acl-mt--large",
+      "targets": [
+        ["css=.acl-card:nth-child(1) .acl-mt--large", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//section/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create Personal Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6182ef6-b1c9-4169-932c-0658f3eee0b2",
+      "comment": "assert element present - Personal Account option",
+      "command": "assertElementPresent",
+      "target": "css=.acl-card:nth-child(1) .acl-button__label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22c6b30b-d0f7-4319-947f-91f42933cd0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-card:nth-child(1) .acl-button__label",
+      "targets": [
+        ["css=.acl-card:nth-child(1) .acl-button__label", "css:finder"],
+        ["xpath=//section/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Create Personal Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba221dee-49a8-4240-81fb-77d36b1052ee",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//acl-input-container[@id='create-account-first-name']/div[2]/div/input",
+      "targets": [
+        ["id=id1655", "id"],
+        ["css=#id1655", "css:finder"],
+        ["xpath=//input[@id='id1655']", "xpath:attributes"],
+        ["xpath=//acl-input-container[@id='create-account-first-name']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "093411fd-5f71-4c63-aa49-2d4d4ec9b485",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//acl-input-container[@id='create-account-first-name']/div[2]/div/input",
+      "targets": [
+        ["id=id1655", "id"],
+        ["css=#id1655", "css:finder"],
+        ["xpath=//input[@id='id1655']", "xpath:attributes"],
+        ["xpath=//acl-input-container[@id='create-account-first-name']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Mike"
+    }, {
+      "id": "1ae56d5e-b525-473c-8f93-f413c3b5fb10",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//acl-input-container[@id='create-account-last-name']/div[2]/div/input",
+      "targets": [
+        ["id=id7894", "id"],
+        ["css=#id7894", "css:finder"],
+        ["xpath=//input[@id='id7894']", "xpath:attributes"],
+        ["xpath=//acl-input-container[@id='create-account-last-name']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "177a5633-b29c-436d-9f8f-188ecc1d8c99",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//acl-input-container[@id='create-account-last-name']/div[2]/div/input",
+      "targets": [
+        ["id=id7894", "id"],
+        ["css=#id7894", "css:finder"],
+        ["xpath=//input[@id='id7894']", "xpath:attributes"],
+        ["xpath=//acl-input-container[@id='create-account-last-name']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container[2]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Albert"
+    }, {
+      "id": "2ac0a8fa-f32f-4908-9c08-5cd0881b7217",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//acl-input-container[@id='create-account-email']/div[2]/div/input",
+      "targets": [
+        ["id=id13", "id"],
+        ["css=#id13", "css:finder"],
+        ["xpath=//input[@id='id13']", "xpath:attributes"],
+        ["xpath=//acl-input-container[@id='create-account-email']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9fcb6e7-c215-43cb-8312-57929371fa6a",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//acl-input-container[@id='create-account-email']/div[2]/div/input",
+      "targets": [
+        ["id=id13", "id"],
+        ["css=#id13", "css:finder"],
+        ["xpath=//input[@id='id13']", "xpath:attributes"],
+        ["xpath=//acl-input-container[@id='create-account-email']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container[3]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "mehreen_akmal@hotmail.com"
+    }, {
+      "id": "339e527c-9f89-4887-bfbc-63cb49badae8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//acl-password-container[@id='create-account-password']/div[2]/div/input",
+      "targets": [
+        ["id=id8488", "id"],
+        ["css=#id8488", "css:finder"],
+        ["xpath=//input[@id='id8488']", "xpath:attributes"],
+        ["xpath=//acl-password-container[@id='create-account-password']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-password-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5f85880-c9c6-409c-916c-a3c1a7023722",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//acl-password-container[@id='create-account-password']/div[2]/div/input",
+      "targets": [
+        ["id=id8488", "id"],
+        ["css=#id8488", "css:finder"],
+        ["xpath=//input[@id='id8488']", "xpath:attributes"],
+        ["xpath=//acl-password-container[@id='create-account-password']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-password-container/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "assignment4"
+    }, {
+      "id": "4e270dce-ad60-4b06-a102-afc044f04e0f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//acl-input-container[@id='create-account-postal-code']/div[2]/div/input",
+      "targets": [
+        ["id=id1717", "id"],
+        ["css=#id1717", "css:finder"],
+        ["xpath=//input[@id='id1717']", "xpath:attributes"],
+        ["xpath=//acl-input-container[@id='create-account-postal-code']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container[4]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f8e84d6-2575-4ba2-8ca8-d23fbab31c1c",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//acl-input-container[@id='create-account-postal-code']/div[2]/div/input",
+      "targets": [
+        ["id=id1717", "id"],
+        ["css=#id1717", "css:finder"],
+        ["xpath=//input[@id='id1717']", "xpath:attributes"],
+        ["xpath=//acl-input-container[@id='create-account-postal-code']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//acl-input-container[4]/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "T3A 6H7"
+    }, {
+      "id": "3eda7a2b-d38e-4302-be74-bbd01a1beeee",
+      "comment": "",
+      "command": "click",
+      "target": "css=.acl-button--theme--primary",
+      "targets": [
+        ["css=.acl-button--theme--primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dfdd2dd7-bebb-41cb-b2d8-12ddeebdaa4e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.homedepot.ca/"],
+  "plugins": []
+}
