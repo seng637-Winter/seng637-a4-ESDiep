@@ -49,10 +49,17 @@
       ],
       "value": ""
     }, {
+      "id": "fcfa88ce-b9b8-4210-89e6-94b210087e8c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "67cbc99a-edf5-4cfb-a3df-96ce961c9ba4",
       "comment": "",
       "command": "click",
-      "target": "id=id4517",
+      "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-input-container/div[2]/div/input",
       "targets": [
         ["id=id4517", "id"],
         ["css=#id4517", "css:finder"],
@@ -101,6 +108,13 @@
       "target": "xpath=//acl-dropdown[@id='global-header-account-menu-dropdown']/div[3]/div/global-header-account-menu-container/global-header-account-menu-guest/div/form/acl-password-container/div[2]/div/input",
       "targets": [],
       "value": "Password123"
+    }, {
+      "id": "c5abd545-cf39-40e0-a595-b5b4ece757f5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.acl-button--theme--primary",
+      "targets": [],
+      "value": ""
     }, {
       "id": "bd72f42a-256c-4185-9caa-36c22c971d8e",
       "comment": "",

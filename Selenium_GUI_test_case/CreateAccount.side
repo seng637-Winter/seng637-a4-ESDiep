@@ -276,6 +276,13 @@
       ],
       "value": ""
     }, {
+      "id": "72aa699b-f185-4e62-969c-ef2fcf4cb08b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Create an Account",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "50f1f48b-168c-4618-817b-ea8c34990d8b",
       "comment": "",
       "command": "click",
@@ -470,6 +477,13 @@
         ["xpath=//acl-input-container[4]/div[2]/div/input", "xpath:position"]
       ],
       "value": "T3A 6H7"
+    }, {
+      "id": "3a9277b4-9501-4822-8b61-1c26943357eb",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.acl-button--theme--primary",
+      "targets": [],
+      "value": ""
     }, {
       "id": "3eda7a2b-d38e-4302-be74-bbd01a1beeee",
       "comment": "",
